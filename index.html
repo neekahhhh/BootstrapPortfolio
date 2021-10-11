@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body class="bg-light">
+<body class="bg-light" style="background: linear-gradient(rgb(222,26,226) 5%, rgb(255,83,196) 21%, rgb(245,175,233) 31% )">
     
 <!--navbar start-->
-<nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+<nav class="navbar navbar-light fixed-top bg-light shadow-sm" style="color: var(--gray-dark);">
     <div class="container-lg">
-      <a class="navbar-brand text-danger fw-bold fs-4" href="#">PH</a>
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">My Portfolio</a>
       <div class="dropdown">
         <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           <i class="fas fa-bars"></i>
@@ -35,17 +35,17 @@
 <section class="home py-5" id="home">
     <div class="container-lg">
         <div class="row min-vh-100 align-items-center align-content-center">
-            <div class="col-md-6 mt-5 mt-md-0">
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
                 <div class="home-img text-center">
-                    <img src="img/2.png" class="rounded-circle mw-100" alt="profile img">
+                    <img src="img/2.png" class="rounded-circle mw-100, width=90px" alt="profile img">
                 </div>
                 </div>
-                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="col-md-6 mt-5 mt-md-0">
                     <div class="home-text">
-                        <p class="text-muted mb-1">Hello I'm</p>
-                        <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Designer</h1>
+                        <p class="text-black mb-1">Hello I'm</p>
+                        <h1 class="text-black text-uppercase fs-1 fw-bold">Web Designer</h1>
                         <h2 class="fs-4">Nikka Ashley Uyanguren</h2>
-                        <p class="mt-4 text-muted">A 2nd-year college student from the University of Immaculate Conception. Taking up the degree Bachelor of Science in Information Technology.</p>
+                        <p class="mt-4 text-black">A 2nd-year college student from the University of Immaculate Conception. Taking up the degree Bachelor of Science in Information Technology.</p>
                         <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
                     </div>
                 </div>
@@ -74,26 +74,25 @@
                 <div class="row text-center text-uppercase my-3">
                     <div class="col-sm-4">
                         <div class="fact-item">
-                            <h4 class="fs-1 fw-bold">100</h4>
+                            <h4 class="fs-1 fw-bold">7</h4>
                             <p class="text-muted">Projects Completed</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="fact-item">
-                            <h4 class="fs-1 fw-bold">90</h4>
-                            <p class="text-muted">Happy CLients</p>
+                            <h4 class="fs-1 fw-bold">3</h4>
+                            <p class="text-muted">Websites Completed</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="fact-item">
-                            <h4 class="fs-1 fw-bold">95</h4>
-                            <p class="text-muted">Positive Reviews</p>
+                            <h4 class="fs-1 fw-bold">1</h4>
+                            <p class="text-muted">On the Process</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 d-flex align-items-center">
-                        <a href="#" class="btn px-3 btn-danger me-5">Download CV</a>
                         <div class="social-links">
                             <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
                             <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
@@ -154,8 +153,17 @@
                     <div class="icon my-3 text-danger fs-2">
                         <i class="fas fa-code"></i>
                     </div>
-                    <h3 class="fs-5 py-2">Web Development</h3>
+                    <h3 class="fs-5 py-2">Learning How To Program</h3>
                     <p class="text-muted">I am learning the different languages to code a website.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm py-4 rounded bg-white">
+                    <div class="icon my-3 text-danger fs-2">
+                        <i class="fab fa-wpexplorer"></i>
+                    </div>
+                    <h3 class="fs-5 py-2">Explore</h3>
+                    <p class="text-muted">I like to explore places.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
@@ -163,17 +171,8 @@
                     <div class="icon my-3 text-danger fs-2">
                         <i class="fas fa-lightbulb"></i>
                     </div>
-                    <h3 class="fs-5 py-2">Creative Design</h3>
-                    <p class="text-muted">I am starting to learn how to design a page.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="service-item shadow-sm py-4 rounded bg-white">
-                    <div class="icon my-3 text-danger fs-2">
-                        <i class="fas fa-image"></i>
-                    </div>
-                    <h3 class="fs-5 py-2">Photoshop</h3>
-                    <p class="text-muted">I have knowledge about the basics but I'm still learning.</p>
+                    <h3 class="fs-5 py-2">Learn New Things</h3>
+                    <p class="text-muted">I like to learn new things.</p>
                 </div>
             </div>
         </div>
@@ -253,81 +252,65 @@
 </section>
 <!--freelancer available section end-->
 
-<!--testimonials section start-->
+<!--growing-up section start-->
 <section class="testimonials py-5" id="testimonials">
     <div class="container-lg py-4">
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">Testimonials</h2>
+                    <h2 class="fw-bold mb-5">Growing-Up</h2>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-7">
-                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger"></li>
-                      <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="1" ></li>
-                      <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
-                    </ol>
-                <div class="carousel-inner p-1">
-                 <!--testi item start-->
-                <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
-                    <div class="testi-author-info d-flex align-items-center">
-                        <img src="img/T1.png " class="img-thumbnail rounded-circle" alt="author img">
-                        <div class="author ms-3">
-                            <h3 class="fs-6 mb-1">Raj Himachal</h3>
-                            <p class="text-mutated m=0">Seo Manager</p>
-                        </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
                     </div>
-                    <p class="text-muted mt-3">I just wanted to let you know that it’s been great working with you.</p>
-                    <div class="rating text-danger">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                    <!--start-->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="C:\Users\Admin\Desktop\images\1.png" class="d-block w-50 h-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="C:\Users\Admin\Desktop\images\2.png" class="d-block w-50 h-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="C:\Users\Admin\Desktop\images\3.png" class="d-block w-50 h-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="C:\Users\Admin\Desktop\images\6.png" class="d-block w-50 h-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="C:\Users\Admin\Desktop\images\7.png" class="d-block w-50 h-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="C:\Users\Admin\Desktop\images\8.png" class="d-block w-50 h-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="C:\Users\Admin\Desktop\images\9.png" class="d-block w-50 h-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="C:\Users\Admin\Desktop\images\10.png" class="d-block w-50 h-50" alt="...">
+                      </div>
                     </div>
-                </div>
-                <!--testi item end-->
-                <!--testi item start-->
-                <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-                    <div class="testi-author-info d-flex align-items-center">
-                        <img src="img/T2.png " class="img-thumbnail rounded-circle" alt="author img">
-                        <div class="author ms-3">
-                            <h3 class="fs-6 mb-1">Rachel Liu</h3>
-                            <p class="text-mutated m=0"> Manager</p>
-                        </div>
-                    </div>
-                    <p class="text-muted mt-3">Thank you so much for a job well done.</p>
-                    <div class="rating text-danger">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <!--testi item end-->
-                <!--testi item start-->
-                <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-                    <div class="testi-author-info d-flex align-items-center">
-                        <img src="img/T3.png" class="img-thumbnail rounded-circle" alt="author img">
-                        <div class="author ms-3">
-                            <h3 class="fs-6 mb-1">Nix Mitchelle</h3>
-                            <p class="text-mutated m=0">Seo Manager</p>
-                        </div>
-                    </div>
-                    <p class="text-muted mt-3">You've been a great colleague and employee.</p>
-                    <div class="rating text-danger">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
                 <!--testi item end-->
                </div>
             </div>
@@ -335,7 +318,7 @@
         </div>
     </div>
 </section>
-<!--testimonials section end-->
+<!--growing-up section end-->
 
 <!--contact section start-->
 <section class="contact py-5"  id="contact">
